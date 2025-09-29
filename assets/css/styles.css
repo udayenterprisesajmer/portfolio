@@ -1,0 +1,31 @@
+/* Uday Enterprises - Bootstrap custom styles */
+:root{
+  --brand:#0d6efd; /* Bootstrap primary */
+  --dark:#0b1b2b;
+}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+.navbar-brand strong{letter-spacing:.3px}
+.hero{background:linear-gradient(180deg,rgba(13,110,253,.08),rgba(13,110,253,.02));padding:5rem 0}
+.hero .tag{display:inline-block;background:#e7f1ff;color:#0a58ca;border-radius:999px;padding:.25rem .75rem;font-weight:600}
+.section-title{font-weight:700}
+.feature-icon{width:48px;height:48px;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;background:#e7f1ff;color:#0a58ca}
+.card h3,.card h4{font-size:1.1rem}
+.footer{background:var(--dark);color:#c9d1d9}
+.footer a{color:#9ecbff;text-decoration:none}
+.footer a:hover{text-decoration:underline}
+.badge-pill{border-radius:50rem}
+.list-check li{margin:.5rem 0}
+.list-check li::marker{content:"✔ ";color:var(--brand)}
+
+/* Utilities */
+.shadow-soft{box-shadow:0 10px 30px rgba(0,0,0,.08)}
+.rounded-4{border-radius:1rem}
+
+/* Contact */
+.contact-card{background:#fff}
+
+/* Responsive tweaks */
+@media (max-width: 575.98px){
+  .hero{padding:3rem 0}
+}
